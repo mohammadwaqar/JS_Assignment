@@ -1,0 +1,136 @@
+.slider_box{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+    .sliders img{width:500px;
+      height: 300px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0px 0px 10px rgb(230, 227, 227);}
+:root {
+  --succes-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--succes-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+.form button {
+  cursor: pointer;
+  background-color: #e23434;
+  border: 2px solid #e23434;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* calculater css open */
+#clear{
+    width: 242px;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #e23434;
+    margin-top: 26px;
+    border-radius: 50px;
+    }
+    
+    .formstyle
+    {   
+        width: 300px;
+        height: 530px;
+        margin: auto;
+        border: 3px solid #fff;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 30px;
+        box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+    }
+    
+    
+    
+    .formstyle input
+    {
+        width: 15px;
+        height: 15px;
+        background-color: #000000;
+        color: white;
+        border: 3px solid #6a6a6a;
+        padding: 20px;
+        margin: 5px;
+        font-size: 15px;
+        border-radius: 50%;
+        box-sizing: content-box;
+    }
+    
+    
+    #calc{
+    width: 250px;
+    border: 5px solid black;
+        border-radius: 3px;
+        padding: 20px;
+        margin: auto;
+    }
